@@ -8,7 +8,7 @@ if ($conexion->connect_error) {
 }
 
 // ID del producto que deseas eliminar
-$producto_id = 6;
+$producto_id = 7;
 
 // Consulta SQL para eliminar un producto
 $sql = "DELETE FROM Productos WHERE ID_Producto = $producto_id";

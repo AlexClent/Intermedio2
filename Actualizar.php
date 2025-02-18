@@ -8,7 +8,7 @@ if ($conexion->connect_error) {
 }
 
 // Datos actualizados del producto
-$producto_id = 6; // ID del producto que deseas actualizar
+$producto_id = 7; // ID del producto que deseas actualizar
 $nuevo_precio = 40000.00;
 
 // Consulta SQL para actualizar el precio del producto
